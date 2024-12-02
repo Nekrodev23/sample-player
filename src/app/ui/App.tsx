@@ -9,7 +9,7 @@ import "@fontsource/roboto/700.css";
 import { startup } from "../../shared/redux";
 
 document.addEventListener("DOMContentLoaded", () => {
-  store.dispatch(startup(undefined));
+  store.dispatch(startup());
 });
 
 const App: React.FC = () => {

@@ -1,13 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
 
-const INITIAL_STATE = {};
+import { createAction } from '@reduxjs/toolkit'
 
-const counterSlice = createSlice({
-  name: "startup",
-  initialState: INITIAL_STATE,
-  reducers: {
-    startup: () => {},
-  },
-});
-
-export const startup = counterSlice.actions.startup;
+export const startup = createAction('startup')

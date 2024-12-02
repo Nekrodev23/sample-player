@@ -9,7 +9,7 @@ export const MediaPlayer: FC = () => {
   const currentSlide = useSelector(selectors.getCurrentSlide);
   const dispatch = useDispatch();
   const onLoadedData = () => {
-    dispatch(actions.slideLoaded(undefined));
+    dispatch(actions.slideLoaded());
   };
 
   return (
