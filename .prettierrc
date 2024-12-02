@@ -1,0 +1,12 @@
+{
+    "importOrder": [
+        "^(common|components)(.*)$",
+        "^data-service(.*)$",
+        "^(hooks|utils|context)(.*)$",
+        "^(constants|themes|route-urls)(.*)$",
+        "^../(.*)$",
+        "^./(.*)$"
+     ],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true
+}
